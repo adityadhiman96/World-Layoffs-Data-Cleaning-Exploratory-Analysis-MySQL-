@@ -34,7 +34,7 @@ The dataset contained inconsistencies such as duplicates, missing values, and fo
 
 * **CTEs (Common Table Expressions)**
 * **Window Functions** (`ROW_NUMBER()`, `DENSE_RANK()`)
-* **Aggregations (`SUM`, `GROUP BY`)**
+* **Aggregations** (`SUM`, `GROUP BY`)
 * **Filtering & Conditional Logic**
 
 ---
@@ -104,7 +104,7 @@ Used to **identify and remove duplicate records**, ensuring data accuracy before
 ## Highlights
 
 * Performed **end-to-end data cleaning using SQL**
-* Used **advanced window functions (ROW_NUMBER, DENSE_RANK, LAG)**
+* Used **advanced window functions** (`ROW_NUMBER`, `DENSE_RANK`, `LAG`)
 * Built **modular queries using CTEs**
 * Extracted **year-wise company-level insights**
 * Ensured **data integrity before analysis**
