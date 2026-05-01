@@ -117,3 +117,7 @@ Used to **identify and remove duplicate records**, ensuring data accuracy before
 * Helps track **layoff trends over time**
 * Supports understanding of **economic and industry shifts**
 * Enables better workforce planning insights
+
+---
+Author
+Aditya
