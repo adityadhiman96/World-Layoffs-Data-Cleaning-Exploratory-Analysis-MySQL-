@@ -34,7 +34,7 @@ The dataset contained inconsistencies such as duplicates, missing values, and fo
 
 * **CTEs (Common Table Expressions)**
 * **Window Functions** (`ROW_NUMBER()`, `DENSE_RANK()`)
-* **Aggregations** (`SUM`, `GROUP BY`)
+* **Aggregations** (`SUM`, `GROUP BY`, `HAVING`)
 * **Filtering & Conditional Logic**
 
 ---
@@ -83,12 +83,30 @@ Used to **identify and remove duplicate records**, ensuring data accuracy before
 
 ---
 
+## Preview
+
+
+
+
+---
+
 ## Key Insights
 
-* Layoffs show **year-wise spikes**, 2022 and 2023 (Jan to March) have seen the most layoffs
-* A small number of companies contribute disproportionately to total layoffs
-* Layoffs are concentrated in specific industries and regions (Consumer and Retail are hit the hardest in latest years)
-* Trends reveal **cyclical workforce reductions**, especially in tech-driven sectors
+### Year-wise Layoff Trends
+* Layoffs increased significantly from 2020 to 2023, indicating prolonged economic instability and post-pandemic corrections
+* 2023 recorded the highest layoffs, led by companies like Google (12K), Microsoft (10K), and Amazon (8K+)
+* Layoffs shifted from travel-heavy industries (2020) to tech-driven layoffs in later years
+
+### Company-Level Insights
+* Layoffs are highly concentrated among a few large companies each year
+* Top 5 companies dominate layoffs annually, indicating centralized workforce reduction rather than distributed cuts
+* Big Tech (Meta, Amazon, Google, Microsoft) played a major role in 2022–2023 layoffs
+
+### Industry-Level Insights
+* Consumer (11.78%) and Retail (11.37%) sectors contributed the highest share of layoffs
+* “Other” category (~9.5%) suggests diversified layoffs across multiple smaller industries
+* Transportation and Finance sectors also showed significant workforce reductions (~8–9%)
+* Emerging sectors like Crypto (2.79%) still show notable layoffs despite smaller share
 
 ---
 
@@ -113,9 +131,17 @@ Used to **identify and remove duplicate records**, ensuring data accuracy before
 
 ## Business Impact
 
-* Identifies companies with highest workforce reductions
-* Helps track **layoff trends over time**
+* Identifies high-risk industries during economic downturns
+* Helps organizations plan sustainable hiring strategies
+* Supports predictive workforce planning using historical patterns
 * Supports understanding of **economic and industry shifts**
-* Enables better workforce planning insights
+
+---
+
+## What I Learned
+* Importance of data cleaning before analysis
+* Practical use of window functions for deduplication and ranking
+* Structuring complex queries using CTEs
+* Translating raw data into meaningful insights
 
 ---
