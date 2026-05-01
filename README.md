@@ -1,4 +1,4 @@
-# 🧹 Layoffs Data Cleaning & Exploratory Data Analysis (MySQL)
+# Layoffs Data Cleaning & Exploratory Data Analysis (MySQL)
 
 ---
 
@@ -22,11 +22,11 @@ The dataset contained inconsistencies such as duplicates, missing values, and fo
 
 ## Data Cleaning Process
 
-* 🧽 Removed duplicate records using `ROW_NUMBER()`
-* 🔄 Handled missing and null values
-* 📅 Standardized date formats using `YEAR()`
-* 🔤 Cleaned inconsistent categorical values (company, industry, country)
-* 🧱 Created staging tables for safe transformations
+* Removed duplicate records using `ROW_NUMBER()`
+* Handled missing and null values
+* Standardized date formats using `YEAR()`
+* Cleaned inconsistent categorical values (company, industry, country)
+* Created staging tables for safe transformations
 
 ---
 
@@ -41,7 +41,7 @@ The dataset contained inconsistencies such as duplicates, missing values, and fo
 
 ## Key Analysis Queries
 
-### 🔝 Top 5 Companies with Highest Layoffs Per Year
+### Top 5 Companies with Highest Layoffs Per Year
 
 ```sql id="q1"
 WITH company_year AS (
@@ -85,10 +85,10 @@ Used to **identify and remove duplicate records**, ensuring data accuracy before
 
 ## Key Insights
 
-* 📉 Layoffs show **year-wise spikes**, 2022 and 2023 (Jan to March) have seen the most layoffs
-* 🏢 A small number of companies contribute disproportionately to total layoffs
-* 🌍 Layoffs are concentrated in specific industries and regions (Consumer and Retail are hit the hardest in latest years)
-* 📊 Trends reveal **cyclical workforce reductions**, especially in tech-driven sectors
+* Layoffs show **year-wise spikes**, 2022 and 2023 (Jan to March) have seen the most layoffs
+* A small number of companies contribute disproportionately to total layoffs
+* Layoffs are concentrated in specific industries and regions (Consumer and Retail are hit the hardest in latest years)
+* Trends reveal **cyclical workforce reductions**, especially in tech-driven sectors
 
 ---
 
@@ -103,11 +103,11 @@ Used to **identify and remove duplicate records**, ensuring data accuracy before
 
 ## Highlights
 
-✔ Performed **end-to-end data cleaning using SQL**
-✔ Used **advanced window functions (ROW_NUMBER, DENSE_RANK, LAG)**
-✔ Built **modular queries using CTEs**
-✔ Extracted **year-wise company-level insights**
-✔ Ensured **data integrity before analysis**
+* Performed **end-to-end data cleaning using SQL**
+* Used **advanced window functions (ROW_NUMBER, DENSE_RANK, LAG)**
+* Built **modular queries using CTEs**
+* Extracted **year-wise company-level insights**
+* Ensured **data integrity before analysis**
 
 ---
 
