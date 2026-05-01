@@ -119,5 +119,3 @@ Used to **identify and remove duplicate records**, ensuring data accuracy before
 * Enables better workforce planning insights
 
 ---
-Author
-Aditya
