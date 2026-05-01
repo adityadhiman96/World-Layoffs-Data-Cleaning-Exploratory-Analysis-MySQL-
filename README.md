@@ -91,12 +91,12 @@ industry_wise_trend
 
 top_5_companies_yearly
 <p align="center">
-  <img src="top_5_companies_yearly.png" width="1200"/>
+  <img src="images/industry_wise_trend.png" width="800"/>
 </p>
 
 yoy_change
 <p align="center">
-  <img src="yoy_change.png" width="1200"/>
+  <img src="images/industry_wise_trend.png" width="800"/>
 </p>
 
 ---
