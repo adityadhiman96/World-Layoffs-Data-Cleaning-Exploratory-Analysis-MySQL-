@@ -86,17 +86,17 @@ Used to **identify and remove duplicate records**, ensuring data accuracy before
 ## Preview
 industry_wise_trend
 <p align="center">
-  <img src="images/industry_wise_trend.png" width="800"/>
+  <img src="images/industry_wise_trend.png" width="600"/>
 </p>
 
 top_5_companies_yearly
 <p align="center">
-  <img src="images/industry_wise_trend.png" width="800"/>
+  <img src="images/top_5_companies_yearly.png" width="600"/>
 </p>
 
 yoy_change
 <p align="center">
-  <img src="images/industry_wise_trend.png" width="800"/>
+  <img src="images/yoy_change.png" width="600"/>
 </p>
 
 ---
